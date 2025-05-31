@@ -2,6 +2,9 @@
   "expo": {
     "name": "movie_app",
     "slug": "movie_app",
+    "extra": {
+      "API_TOKEN": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZTliMzIzMWFjNzcxMTk0MjRmMzcxYjIzNWE2NDA3MCIsIm5iZiI6MTc0NDEyNjkxMi4wNzUsInN1YiI6IjY3ZjU0M2MwMjQwZTY1OTk2ODk5MzY2MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.t0nvlCgywLYv4NbbNb_skMHlVVi70xJqhDLHca7blqw"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +12,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.movie-app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.movie_app"
     },
     "web": {
       "bundler": "metro",
