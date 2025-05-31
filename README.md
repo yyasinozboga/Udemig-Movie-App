@@ -20,4 +20,4 @@ This is a **Movie App** built with **TypeScript**, offering users a sleek and re
 
 ## 📦 Folder Structure (Optional)
 
-<img src="Movie App Gif.gif" style="height: 500px;">>
+<img src="Movie App Gif.gif" style="height: 500px;">
